@@ -1,0 +1,20 @@
+name: virtual-copernicus-env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - jupyterlab>=0.33
+  - matplotlib
+  - basemap
+  - scipy
+  - xarray
+  - pandas
+  - numpy
+  - nco
+  - seaborn
+  - pynco
+  - pip:
+    - motuclient>=1.8.1
+    - cdo>=1.4.0
+    - julia
+    - jupyterlab_latex
