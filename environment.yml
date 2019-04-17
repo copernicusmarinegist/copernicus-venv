@@ -9,7 +9,6 @@ dependencies:
   - xarray
   - pandas
   - numpy
-  - nco
   - seaborn
   - pip:
     - motuclient>=1.8.1
