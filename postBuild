@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # run matplotlib once to generate the font cache
-python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
+# python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
 	
-test -e test.png && rm test.png
+# test -e test.png && rm test.png
 
 # Install JupyterLab extension
 jupyter labextension install @jupyterlab/latex
@@ -11,8 +11,8 @@ jupyter lab build
 jupyter labextension install @jupyterlab/toc
 
 # Remove output from Jupyter notebooks
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace python_example_for_Jupyter.ipynb
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace R_example_for_Jupyter.ipynb
+# jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace python_example_for_Jupyter.ipynb
+# jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace R_example_for_Jupyter.ipynb
 
 # Removed - Archive file is too heavy wget -q -O notebooks.zip "https://atlas.mercator-ocean.fr/s/Dzby3GRfyQraTQX/download"
 # unzip notebooks.zip
