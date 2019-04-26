@@ -2,9 +2,14 @@ name: virtual-copernicus-env
 channels:
   - conda-forge
   - anaconda
+  - conda-forge/label/gcc7
 dependencies:
   - python
+  - nco=4.7.7
+  - pynco=0.0.4
+  - netcdf-fortran=4.4.4
   - netcdf4=1.4.2
+  - libnetcdf=4.6.1
   - matplotlib
   - basemap
   - scipy
