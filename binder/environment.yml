@@ -5,6 +5,7 @@ channels:
   - conda-forge/label/gcc7
 dependencies:
   - python
+  - r-irkernel=0.8.11
   - nco=4.7.7
   - pynco=0.0.4
   - netcdf-fortran=4.4.4
