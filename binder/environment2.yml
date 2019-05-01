@@ -49,6 +49,7 @@ dependencies:
   - openblas=0.3.6=h6e990d7_1
   - openssl=1.1.1b=h14c3975_1
   - pathlib2=2.3.3=py27_1000
+  - pandas
   - pcre=8.41=hf484d3e_1003
   - pexpect=4.7.0=py27_0
   - pickleshare=0.7.5=py27_1000
@@ -88,6 +89,7 @@ dependencies:
   - zlib=1.2.11=h14c3975_1004
   - pip:
     - backports-functools-lru-cache==1.5
+    - motuclient>=1.8.1
     - cftime==1.0.3.4
     - cycler==0.10.0
     - matplotlib==2.2.4
