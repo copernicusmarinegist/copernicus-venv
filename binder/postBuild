@@ -3,8 +3,8 @@
 conda create -y -n ipykernel_py2 python=2.7 ipykernel
 source activate ipykernel_py2
 python -m ipykernel install --user
-python -m pip install -r newEnvPy2.txt
 source deactivate
+conda env update -f environment2.yml -n ipykernel_py2
 
 
 # Install JupyterLab extension
