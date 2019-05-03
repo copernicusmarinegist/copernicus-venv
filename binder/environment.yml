@@ -3,8 +3,14 @@ channels:
   - conda-forge
   - anaconda
   - conda-forge/label/gcc7
+  - flynn
+  - bioconda
 dependencies:
   - python
+  - ftputil
+  - thriftpy
+  - requests 
+  - ncftp
   - r-irkernel=0.8.11
   - nco=4.7.7
   - pynco=0.0.4
@@ -12,6 +18,7 @@ dependencies:
   - netcdf4=1.4.2
   - libnetcdf=4.6.1
   - matplotlib
+  - cartopy
   - basemap
   - scipy
   - xarray
