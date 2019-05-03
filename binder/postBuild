@@ -6,15 +6,6 @@ python -m ipykernel install --user
 source deactivate
 conda env update -f binder/environment2.yml -n ipykernel_py2
 
-
-# Install JupyterLab extension
-# jupyter labextension install @jupyterlab/latex
-# jupyter lab build
-# jupyter labextension install @jupyterlab/toc
-
-# Remove output from Jupyter notebooks
-# jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace python_example_for_Jupyter.ipynb
-# jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace R_example_for_Jupyter.ipynb
-
-wget -q -O notebooks-godae.zip "https://atlas.mercator-ocean.fr/s/WN2fEpNrH5eQotF/download"
+wget -q -O notebooks-godae.zip "https://atlas.mercator-ocean.fr/s/Fb7GrnaE43wGYDd/download"
 unzip notebooks-godae.zip
+rm -rf notebooks-godae.zip
